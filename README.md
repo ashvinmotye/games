@@ -1,7 +1,3 @@
----
-title: Games | Ashvin Motye
----
-
 # Games
 
 A repository where I host all my created games.
