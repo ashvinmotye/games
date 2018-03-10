@@ -258,11 +258,6 @@ function disableButtons(flag) {
 }
 
 // CALLING FUNCTIONS
-window.onload = function() {
-  generateWordsList();
-  init();
-};
-
 sayWord.addEventListener('click', speakWord);
 sayDefinition.addEventListener('click', speakWord);
 saySentence.addEventListener('click', speakWord);
