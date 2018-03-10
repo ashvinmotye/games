@@ -1,0 +1,63 @@
+.blurred {
+  filter: blur(4px);
+}
+
+#hide {
+  transition: all 0.1s ease-in;
+}
+
+nav {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  transition: all 0.3s ease-in-out;
+  z-index: 11;
+}
+
+nav:hover svg.fa-life-ring {
+  transform: rotate(90deg);
+}
+
+svg.close {
+  color: #ED6A5A;
+  transform: rotate(90deg);
+  transition: all 0.2s ease-in-out;
+}
+
+#close:hover .close {
+  color: #F44336;
+}
+
+.modal {
+  max-width: 600px;
+  text-align: justify;
+}
+
+aside {
+  position: absolute;
+  top: 0px;
+  left: 0;
+  z-index: 10;
+  min-height: 100%;
+  min-width: 100%;
+  padding: 20px 30px;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #9ad1d4;
+  text-align: center;
+  opacity: 1;
+  transition: opacity 0.2s ease-in;
+}
+
+aside.invisible {
+  visibility: hidden;
+  opacity: 0;
+}
+
+aside p {
+  margin: 15px 0;
+}
+
+aside ul {
+  list-style: none;
+  padding-left: 15px;
+}
