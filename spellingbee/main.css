@@ -17,7 +17,7 @@ body {
 .container {
   max-width: 960px;
   margin: 0 auto;
-  padding: 50px 10px;
+  padding: 50px 10px 10px;
   min-height: 100%;
 }
 
@@ -153,6 +153,7 @@ button[type='submit']:hover svg {
 .status {
   text-align: center;
   padding-top: 20px;
+  height: 100px;
 }
 
 #correctSpelling {
@@ -180,10 +181,7 @@ button[type='submit']:hover svg {
 }
 
 footer {
-  position: fixed;
-  bottom: 10px;
-  left: 50%;
-  transform: translateX(-50%);
+  margin-top: 50px;
   color: #9ad1d4;
   width: 100%;
   text-align: center;
@@ -192,4 +190,34 @@ footer {
 footer p a,
 footer p a:visited {
   color: #9AD1D4;
+}
+
+nav {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  transition: all 0.3s ease-in-out;
+  z-index: 11;
+}
+
+nav:hover svg.fa-life-ring {
+  transform: rotate(90deg);
+}
+
+aside {
+  position: absolute;
+  top: 0px;
+  left: 0;
+  z-index: 10;
+  min-height: 100%;
+  min-width: 100%;
+  padding: 20px 30px;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #9ad1d4;
+  text-align: center;
+  /*   visibility: hidden; */
+}
+
+.blurred {
+  filter: blur(4px);
 }
