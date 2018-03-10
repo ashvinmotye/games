@@ -190,7 +190,7 @@ function checkSpelling() {
 
     isIncorrect = true;
 
-    correctSpelling.innerHTML = text+"<br><span id='nextWord' onclick='currentIndex++; updateAttempts(); init();'>next word</span>";
+    correctSpelling.innerHTML = text+"<br><span id='nextWord' onclick='currentIndex++; updateAttempts(); init(); sayWord.click();'>next word</span>";
   }
 
   // stop the clock
