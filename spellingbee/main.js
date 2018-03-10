@@ -131,7 +131,8 @@ function init() {
 // and attempted = currentIndex
 function checkSpelling() {
   // eliminate leading and trailing whitespaces using trim()
-  var spelling = input.value.trim();
+  // convert to lowercase
+  var spelling = input.value.trim().toLowerCase();
 
   // if input is blank, don't submit
   if(spelling === '') {
