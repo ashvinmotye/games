@@ -15,9 +15,38 @@
   <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
 
   <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+  <link rel="stylesheet" type="text/css" media="screen" href="modal.css" />
 </head>
 <body>
-  <div class="container">
+  <nav>
+    <button class="btn" id="close">
+      <i class="far fa-life-ring"></i>
+    </button>
+  </nav>
+
+  <aside class="invisible">
+    <div class="container modal">
+      <h2>Guide</h2>
+
+      <p><strong>Spelling bee</strong> is a competition where you are given a word and you have to spell it correctly. In the actual competition, you are given the options of repeating the word, part of speech, definition, example in a sentence and language origin. Also, once you start spelling, you <strong>cannot</strong> correct yourself.</p>
+
+      <p>In my practice version, you are allowed:</p>
+
+      <ul>
+        <li>3 repeats of the word</li>
+        <li>2 repeats of definition</li>
+        <li>2 repeats of example</li>
+      </ul>
+
+      <p>At the start of each round, you can press <strong>"ENTER"</strong> to say the word automatically. Alternatively, click the designated buttons.</p>
+
+      <p>There are <span id="totalWords">000</span> words in the game. For every 10 correct words, you move up a level. And, if you manage to complete all correctly, you will be awarded the Champions Cup of the game!</p>
+
+      <p>Good luck!</p>
+    </div>
+  </aside>
+
+  <div class="container" id="hide">
     <header>
       <h1>Spelling</h1>
       <h1>Bee</h1>
@@ -94,5 +123,6 @@
   <script src="speech.js"></script>
   <script src="database.js"></script>
   <script src="main.js"></script>
+  <script src="modal.js"></script>
 </body>
 </html>
