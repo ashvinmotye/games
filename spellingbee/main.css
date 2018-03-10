@@ -17,7 +17,7 @@ body {
 .container {
   max-width: 960px;
   margin: 0 auto;
-  padding: 50px 10px;
+  padding: 50px 10px 10px;
   min-height: 100%;
 }
 
@@ -153,6 +153,7 @@ button[type='submit']:hover svg {
 .status {
   text-align: center;
   padding-top: 20px;
+  height: 80px;
 }
 
 #correctSpelling {
@@ -180,13 +181,10 @@ button[type='submit']:hover svg {
 }
 
 footer {
-  position: absolute;
-  bottom: 10px;
-  left: 50%;
-  transform: translateX(-50%);
   color: #9ad1d4;
   width: 100%;
   text-align: center;
+  margin-top: 50px;
 }
 
 footer p a,
