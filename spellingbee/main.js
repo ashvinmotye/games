@@ -161,12 +161,17 @@ function checkSpelling() {
     // check if user has guessed all right words
     // level = ultimate champion trophy
     // change h1 color to gold
+    // disable all buttons
     if(correctCount === TOTAL) {
       levelIndicator.innerHTML = '<i class="fas fa-trophy" style="color: gold;"></i>';
 
       for(var i=0; i<headings.length; i++) {
         headings[i].style.color = "gold";
       }
+
+      disableButtons(true);
+
+      correctSpelling.innerHTML = "GAME COMPLETE!";
     }
 
     // update number of correct spelling
