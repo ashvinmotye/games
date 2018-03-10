@@ -8,6 +8,8 @@ var hide = document.querySelector('#hide');
 // CALLING FUNCTIONS
 window.onload = function() {
   totalWords.innerHTML = TOTAL;
+  generateWordsList();
+  init();
 };
 
 close.addEventListener('click', function(e){
