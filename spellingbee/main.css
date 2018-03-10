@@ -191,33 +191,3 @@ footer p a,
 footer p a:visited {
   color: #9AD1D4;
 }
-
-nav {
-  position: absolute;
-  top: 20px;
-  left: 20px;
-  transition: all 0.3s ease-in-out;
-  z-index: 11;
-}
-
-nav:hover svg.fa-life-ring {
-  transform: rotate(90deg);
-}
-
-aside {
-  position: absolute;
-  top: 0px;
-  left: 0;
-  z-index: 10;
-  min-height: 100%;
-  min-width: 100%;
-  padding: 20px 30px;
-  background-color: rgba(0, 0, 0, 0.7);
-  color: #9ad1d4;
-  text-align: center;
-  /*   visibility: hidden; */
-}
-
-.blurred {
-  filter: blur(4px);
-}
