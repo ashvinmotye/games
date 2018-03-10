@@ -263,7 +263,7 @@ saySentence.addEventListener('click', speakWord);
 window.addEventListener('keypress', function(e) {
   if(e.charCode == 13 && (isStarting || isIncorrect)) {
     if(isIncorrect) {
-      currentIndex++;
+      document.querySelector('#nextWord').click();
       init();
     }
 
