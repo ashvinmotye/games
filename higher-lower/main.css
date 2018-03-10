@@ -98,3 +98,17 @@ li::selection {
 .incorrect {
   color: #FF595E;
 }
+
+footer {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  text-align: center;
+}
+
+footer p a,
+footer p a:visited {
+  color: #6a4c93;
+}
