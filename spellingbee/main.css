@@ -52,12 +52,12 @@ h1:nth-of-type(3) {
   text-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
 }
 
-ul {
+.buttons ul {
   list-style: none;
   text-align: center;
 }
 
-ul li {
+.buttons ul li {
   display: inline-block;
   margin: 0 20px;
 }
