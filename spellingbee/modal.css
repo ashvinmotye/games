@@ -2,10 +2,6 @@
   filter: blur(4px);
 }
 
-#hide {
-  transition: all 0.1s ease-in;
-}
-
 nav {
   position: absolute;
   top: 20px;
