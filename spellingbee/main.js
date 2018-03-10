@@ -202,6 +202,12 @@ function checkSpelling() {
 // update attempted words
 function updateAttempts() {
   attemptedIndicator.innerHTML = currentIndex;
+
+  if(Number(attemptedIndicator.innerHTML) === TOTAL) {
+    disableButtons(true);
+
+    correctSpelling.innerHTML = "GAME OVER!";
+  }
 }
 
 // timing
