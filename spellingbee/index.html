@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content="Hello I'm Ashvin and this is a JavaScript powered spelling bee practice game, using the Web Speech API.">
+  <meta name="keywords" content="ashvin, motye, ashvin motye, web developer mauritius, software developer mauritius, javascript game, spelling bee, spelling bee practice">
+
+  <title>Spelling Bee | Ashvin Motye</title>
+  <link rel="shortcut icon" href="icon.png" type="image/png">
+
+  <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400" rel="stylesheet">  
+  <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+
+  <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112790540-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-112790540-1');
+  </script>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Spelling</h1>
+      <h1>Bee</h1>
+      <h1 id="level">1</h1>
+    </header>
+
+    <main>
+      
+      <div class="buttons">
+        <ul>
+          <li>
+            <button type="button" class="btn" data-property="word" id="sayWord">
+              <i class="fas fa-volume-up"></i>
+            </button>
+            <span>word (<span id="word">0</span>)</span>
+          </li>
+
+          <li>
+            <button type="button" class="btn" data-property="definition" id="sayDefinition">
+              <i class="fas fa-question-circle"></i>
+            </button>
+            <span>definition (<span id="definition">0</span>)</span>
+          </li>
+
+          <li>
+            <button type="button" class="btn" data-property="example" id="saySentence">
+              <i class="fas fa-info-circle"></i>
+            </button>
+            <span>sentence (<span id="example">0</span>)</span>
+          </li>
+
+        </ul>
+      </div>
+
+    </main>
+
+    <div class="stats">
+      <div class="timer">
+        <p><span id="time">00</span>s</p>
+      </div>
+
+      <div class="score">
+        <p><span id="completed">0</span>/<span id="attempted">0</span></p>
+      </div>
+    </div>
+
+    <form onsubmit="return checkSpelling(), false;">
+      <div class="form-input">
+        <input type="text" placeholder="spell here">
+        
+        <button class="btn" type="submit">
+          <i class="fas fa-check-circle"></i>
+        </button>
+      </div>
+    </form>
+
+    <div class="status">
+      <p id="correctSpelling"></p>
+    </div>
+
+  </div>
+
+  <footer>
+    <p>
+      ashvin motye |
+      <script>
+        document.write(new Date().getFullYear());
+      </script>
+      | <a href="http://contact.ashvinmotye.com" target="_blank">contact</a>
+    </p>
+    <p>words from <a href="http://vocabulary.com" target="_blank">vocabulary.com</a></p>
+  </footer>
+
+  <script src="speech.js"></script>
+  <script src="database.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
