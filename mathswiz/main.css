@@ -93,7 +93,7 @@ button {
 }
 
 .solution.fixed.correct .number {
-  transform: translate(-50%, -50%) scale(2);
+  transform: translate(-50%, -50%) scale(1.5);
 }
 
 .solution.fixed .number {
