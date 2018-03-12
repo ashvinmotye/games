@@ -9,5 +9,5 @@ A simple JavaScript game I created where ten numbers are randomly generated. The
 As simple as it gets, you click on the microphone to get a word, you spell it in the prompt. You have three times to listen to the word, two times to get its definition and two times to hear an example with the word. You have 30 seconds to correctly spell the word. After each word, press "Enter" to say the word once, and then you need to proceed by clicking the buttons. Happy practising!
 ---
 - [Maths Wiz](./mathswiz)
-4 digits from 1 to 10, added, multiplied and subtracted in 3 levels with either, 4, 8 or 12 possible choices. Time to exercise your maths skills!
+4 digits from 1 to 10, added, multiplied and subtracted in 3 levels with either, 4, 8 or 12 possible choices. Time to exercise your basic maths skills!
 ---
