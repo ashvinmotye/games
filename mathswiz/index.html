@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content="Hello I'm Ashvin and this is a JavaScript powered shopping help app, allowing users to input and maintain their shopping tally.">
+  <meta name="keywords" content="ashvin, motye, ashvin motye, web developer mauritius, software developer mauritius, javascript app, shopping calculator">
+
+  <title>Maths Wiz | Ashvin Motye</title>
+  <link rel="shortcut icon" href="icon.png" type="image/png">
+
+  <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400" rel="stylesheet">
+
+  <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+
+</head>
+
+<body>
+  <div class="container">
+    <div id="calculation">Maths Wiz</div>
+
+    <div id="stats">
+      <div class="score">
+        <span id="score">0</span> points <span>/</span> attempt <span id="attempts">0</span>
+      </div>
+
+      <div class="levels">
+        <button class="selected" data-level="1">Easy</button>
+        <button data-level="2">Hard</button>
+        <button data-level="3">Wiz</button>
+      </div>
+    </div>
+
+    <div id="solution-container"></div> 
+
+    <div class="next">
+      <button id="start">Start</button>
+      <button id="reset">Reset</button>
+    </div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
