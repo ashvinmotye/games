@@ -11,3 +11,6 @@ As simple as it gets, you click on the microphone to get a word, you spell it in
 - [Maths Wiz](./mathswiz)
 4 digits from 1 to 10, added, multiplied and subtracted in 3 levels with either, 4, 8 or 12 possible choices. Time to exercise your basic maths skills!
 ---
+- [BrainFreeze](./brainfreeze)
+12 colors appearing in your defined time period; your goal is to tap on the color square which is same as the color in which the heading appears. The score is in terms of the longest streaks of correct taps.
+---
