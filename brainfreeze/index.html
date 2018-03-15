@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content="Hello I'm Ashvin and this is a JavaScript powered fast paced color selector app.">
+  <meta name="keywords" content="ashvin, motye, ashvin motye, web developer mauritius, software developer mauritius, javascript app, color game">
+
+  <title>BrainFreeze | Ashvin Motye</title>
+  <link rel="shortcut icon" href="icon.png" type="image/png">
+
+  <link href="https://fonts.googleapis.com/css?family=Rammetto+One" rel="stylesheet">
+
+  <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112790540-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-112790540-1');
+  </script>
+</head>
+<body>
+  <div class="container">
+    <h1>BrainFreeze</h1>
+
+    <div id="scoreboard">
+      <p>
+        this streak <span id="streak">0</span>
+        <span>|</span>
+        <span id="maxStreak">0</span> max streak
+      </p>
+    </div>
+
+    <div id="range">
+      <div>
+        <input type="range" name="speed" min="0.5" max="5" step="0.5">
+      </div>
+
+      <div><span id="userSpeed">3.0</span>s</div>
+    </div>
+
+    <div id="colors">
+      <div class="color"></div>
+      <div class="color"></div>
+      <div class="color"></div>
+      <div class="color"></div>
+      <div class="color"></div>
+      <div class="color"></div>
+      <div class="color"></div>
+      <div class="color"></div>
+      <div class="color"></div>
+      <div class="color"></div>
+      <div class="color"></div>
+      <div class="color"></div>
+    </div>
+  </div>
+
+  <p class="description">tap on the color in which the header is written</p>
+  
+  <script src="main.js"></script>
+</body>
+</html>

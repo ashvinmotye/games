@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background-color: #333;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 30px 10px;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 5px;
+  font-family: 'Rammetto One', cursive, sans-serif;
+  font-size: 2.5em;
+  text-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+  color: blanchedalmond;
+}
+
+#scoreboard {
+  margin-bottom: 15px;
+  color: blanchedalmond;
+}
+
+p {
+  font-size: 12px;
+}
+
+p span {
+  font-size: 22px;
+}
+
+#range {
+  margin: 10px auto 20px;
+  width: 80%;
+}
+
+#range div {
+  display: inline-block;
+  color: blanchedalmond;
+  font-size: 14px;
+}
+
+#range div:nth-of-type(1) {
+  width: 70%;
+}
+
+#range div:nth-of-type(2) {
+  width: 29%;
+}
+
+#userSpeed {
+  font-size: 24px;
+}
+
+input {
+  width: 100%;
+}
+
+#colors {
+  width: 90%;
+  margin: 0 auto;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.color {
+  width: 25%;
+  display: inline-block;
+  padding-bottom: 25%;
+  background-color: blanchedalmond;
+  margin-left: -4px;
+  margin-bottom: -4px;
+  cursor: pointer;
+}
+
+p.description {
+  text-align: center;
+  color: blanchedalmond;
+}
