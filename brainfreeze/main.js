@@ -112,6 +112,8 @@ function setSpeed() {
 
   streak = 0;
   streakSpan.innerHTML = streak;
+  
+  colorize();
 
   clearInterval(timer);
   timer = setInterval(colorize, Number(roundTime) * 1000);
