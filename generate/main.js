@@ -63,8 +63,3 @@ window.addEventListener('keypress', generate);
 var shakeEvent = new Shake({ threshold: 15 });
 shakeEvent.start();
 window.addEventListener('shake', populate, false);
-
-//stop listening
-function stopShake() {
-  shakeEvent.stop();
-}
