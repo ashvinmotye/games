@@ -14,3 +14,6 @@ As simple as it gets, you click on the microphone to get a word, you spell it in
 - [BrainFreeze](./brainfreeze)
 12 colors appearing in your defined time period; your goal is to tap on the color square which is same as the color in which the heading appears. The score is in terms of the longest streaks of correct taps.
 ---
+- [Memorise](./memorise)
+Every second, one color in the grid will turn on and then back off. You have to memorise the pattern and replicate it by clicking on the respective color in the correct order. The number of colors making up the pattern will increase by one after each successful level. Beware, should you get one color wrong, the game will end!
+---
