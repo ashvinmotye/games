@@ -2,6 +2,9 @@
 
 A repository where I host all my created games.
 
+- [Memorise](./memorise)
+Every second, one color in the grid will turn on and then back off. You have to memorise the pattern and replicate it by clicking on the respective color in the correct order. The number of colors making up the pattern will increase by one after each successful level. Beware, should you get one color wrong, the game will end!
+---
 - [Higher Lower](./higher-lower)
 A simple JavaScript game I created where ten numbers are randomly generated. The aim is to guess if the next number is higher or lower than the previous one in the list. Two numbers are already displayed and you need to guess from there. A maximum score of 8 can be achieved which might be easy after some time. So, I added a timer so that you can beat your best time if you have reached the top score. Enjoy!
 ---
@@ -13,7 +16,4 @@ As simple as it gets, you click on the microphone to get a word, you spell it in
 ---
 - [BrainFreeze](./brainfreeze)
 12 colors appearing in your defined time period; your goal is to tap on the color square which is same as the color in which the heading appears. The score is in terms of the longest streaks of correct taps.
----
-- [Memorise](./memorise)
-Every second, one color in the grid will turn on and then back off. You have to memorise the pattern and replicate it by clicking on the respective color in the correct order. The number of colors making up the pattern will increase by one after each successful level. Beware, should you get one color wrong, the game will end!
 ---
