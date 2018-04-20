@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content="A JavaScript powered game where the player needs to memorise random pattern of colors to move up in levels.">
+  <meta name="keywords" content="ashvin, motye, ashvin motye, javascript, javascript game, html5, html, html5 game, memory game">
+
+
+  <title>Memorise | Ashvin Motye</title>
+  <link rel="shortcut icon" href="icon.png" type="image/png">
+
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+ 
+
+  <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112790540-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-112790540-1');
+  </script>
+</head>
+<body>
+  <div class="container">
+
+    <header>
+      <h1>Memorise</h1>
+      
+      <p>Every second, one color in the grid will turn on and then back off. You have to memorise the pattern and replicate it by clicking on the respective color in the correct order. The number of colors making up the pattern will increase by one after each successful level. Beware, should you get one color wrong, the game will end!</p>
+    </header>
+
+    <div class="button-container">
+
+      <button id="start">Start</button>
+      <button id="reset">Reset</button>
+
+    </div>
+
+
+    <div class="colors">
+
+      <div class="color" data-colorvalue="0"></div>
+      <div class="color" data-colorvalue="1"></div>
+      <div class="color" data-colorvalue="2"></div>
+      <div class="color" data-colorvalue="3"></div>
+
+    </div>
+
+    <div class="pattern"></div>
+
+    <div class="level">1</div>
+
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
