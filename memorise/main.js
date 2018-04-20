@@ -34,7 +34,6 @@ startButton.addEventListener('click', function () {
   var timer = setInterval(function () {
     var currentIndex = colorsIndex[loopCounter];
     var colorToggle = colorElements[currentIndex];
-    console.log('colors Index');
 
     colorToggle.style.opacity = 1;
 
