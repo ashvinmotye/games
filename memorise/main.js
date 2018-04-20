@@ -35,7 +35,6 @@ startButton.addEventListener('click', function () {
     var currentIndex = colorsIndex[loopCounter];
     var colorToggle = colorElements[currentIndex];
     console.log('colors Index');
-    console.log(colorsIndex);
 
     colorToggle.style.opacity = 1;
 
@@ -70,12 +69,10 @@ function checkColor() {
   var answer = document.querySelectorAll('.answer');
 
   if(colorValue == colorsIndex[clickCount]) {
-    console.log('right');
     answer[clickCount].classList.add('correct');
   }
 
   else {
-    console.log('wrong');
     answer[clickCount].classList.add('incorrect');
     incorrectCount++;
   }
