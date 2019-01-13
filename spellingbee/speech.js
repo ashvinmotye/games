@@ -11,7 +11,7 @@ function speak(text) {
     var v = voices[i].voiceURI;
 
     // check for English language
-    if (v.indexOf('English') !== 0) {
+    if (v.indexOf('English') !== -1) {
       english.push(voices[i]);
     }
   }
